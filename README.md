@@ -37,7 +37,7 @@ Jerrica was also recently used in Montrose's Halloween 2022 Newgrounds submissio
 3. Connect the track object's output web audio GainNode to a destination.
 4. Call the track object's processMusic function often.
 
-```
+```js
 var track = createTrack(ac,buffer);
 track.output.connect(ac.destination);
 function frame() {
